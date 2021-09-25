@@ -1,0 +1,31 @@
+{
+    "configurations": [
+        {
+            "name": "GTK-devel",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/include/**",
+                "/usr/lib/x86_64-linux-gnu/**",
+                "${workspaceFolder}/Headers",
+                "${workspaceFolder}/Headers/gpass/popups",
+                "${workspaceFolder}/Headers/gpass",
+                "${workspaceFolder}/Headers/spass",
+                "${workspaceFolder}/Headers/spass/popups",
+                "${workspaceFolder}/Headers/searchpass",
+                "${workspaceFolder}/Headers/searchpass/popups",
+                "${workspaceFolder}/Headers/searchpass/popups/statedelpass",
+                "${workspaceFolder}/Headers/password/popups",
+                "${workspaceFolder}/Headers/password"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "linux-gcc-x64",
+            "compilerArgs": [
+                "`pkg-config --cflags --libs gtk+-3.0`"
+            ]
+        }
+    ],
+    "version": 4
+}

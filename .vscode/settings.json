@@ -1,0 +1,12 @@
+{
+    "C_Cpp.errorSquiggles": "Enabled",
+    "files.associations": {
+        "gpass.h": "c",
+        "type_traits": "c",
+        "typeinfo": "c",
+        "cctype": "cpp",
+        "searchpass.h": "c",
+        "passwordwindow.h": "c"
+    },
+    "C_Cpp.dimInactiveRegions": false
+}
